@@ -154,6 +154,8 @@ void ProduceQuarter_11(int *A, int MSIZE, int *quarter)
         for (int j = 0; j < MSIZE; j++)
             quarter[m++] = A[(i + MSIZE)*n + (j+MSIZE)];
 }
+
+
 void CombineQuaters(int *quarter_00, int *quarter_01, int *quarter_10, int *quarter_11,int *C,int MSIZE)
 {
     int n = MSIZE * 2;
